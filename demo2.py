@@ -1,0 +1,13 @@
+import tkinter as tk
+window = tk.Tk()
+window.geometry("500x600")
+window.title("Login/Signup")
+login_label = tk.Label(text="Click the login button to log in:")
+login_label.pack()
+login_button = tk.Button(text="Login")
+login_button.pack()
+signup_label = tk.Label(text="Click the signup button to sign up:")
+signup_label.pack()
+signup_button = tk.Button(text="Signup")
+signup_button.pack()
+window.mainloop()
